@@ -18,9 +18,5 @@ module FormsLab
      @ship_1 = ships[0]
      @ship_2 = ships[1]
     end
-
-    get '/show' do
-      erb :show
-    end
   end
 end
