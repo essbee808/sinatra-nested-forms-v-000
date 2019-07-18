@@ -16,5 +16,9 @@ module FormsLab
      @pirate = Pirate.new(params["pirate"])
      @ships = params["pirate"]["ships"]
     end
+
+    get '/show' do
+      
+    end
   end
 end
