@@ -17,7 +17,7 @@ module FormsLab
      @ships = params["pirate"]["ships"]
      @ships.each do |p|
      binding.pry
-   end
+     end
     end
   end
 end
