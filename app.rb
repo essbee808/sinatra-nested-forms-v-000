@@ -18,6 +18,7 @@ module FormsLab
      #binding.pry
      @ship_1 = Ship.new(ships[0])
      @ship_2 = Ship.new(ships[1])
+     erb :show
     end
   end
 end
