@@ -17,7 +17,6 @@ module FormsLab
      ships = params["pirate"]["ships"]
      @ship_1 = ships[0]
      @ship_2 = ships[1]
-     binding.pry
     end
 
     get '/show' do
