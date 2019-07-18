@@ -18,7 +18,7 @@ module FormsLab
     end
 
     get '/show' do
-      
+      erb :show
     end
   end
 end
