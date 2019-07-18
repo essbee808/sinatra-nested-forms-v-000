@@ -14,7 +14,7 @@ module FormsLab
 
     post '/pirates' do
       binding.pry
-     @pirate = Pirate.new(params["pirate"]["name"])
+     @pirate = Pirate.new(params["pirate"])
     end
   end
 end
